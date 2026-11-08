@@ -36,6 +36,7 @@ billion-context/
 │   │   ├── lane-decisions.ts     #   Single resolver for per-lane gating decisions (#3417)
 │   │   ├── pi-subagent-channel.ts #   Channel fallback for pi-subagent children missing ACP tools (#2268)
 │   │   ├── snapshot-render.ts    #   Snapshot render: outbound prefix from server transcript (#3756)
+│   │   ├── snap-egress.ts       #   Outbound egress from the snapshot plane, tripwire-guarded (#5874 P2)
 │   │   ├── thread-tracking.ts    #   Anthropic Threads previous_message_id repair (#2701)
 │   │   ├── threads-lane.ts       #   Anthropic Threads lane: mirror, budget, reforge (#2926)
 │   │   ├── update-actions.ts     #   Web Updates tab actions over the self-updater (#3719)
